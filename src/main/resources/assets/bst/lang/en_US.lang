@@ -1,0 +1,35 @@
+gui.config.mainTitle=MinecraftByExample Configuration
+gui.config.ctgy.general=General Configuration
+gui.config.ctgy.general.tooltip=Standard configuration options
+gui.config.ctgy.other=Other Configuration
+gui.config.ctgy.other.tooltip=Other minor config options...
+gui.config.myInteger=My Integer
+gui.config.myInteger.tooltip=My Integer Tooltip
+gui.config.myBoolean=My Boolean
+gui.config.myBoolean.tooltip=My Boolean Tooltip
+gui.config.myDouble=My Double
+gui.config.myDouble.tooltip=My Double Tooltip
+gui.config.myString=My String
+gui.config.myString.tooltip=My String Tooltip
+gui.config.myIntList=My Int List
+gui.config.myIntList.tooltip=My Int List Tooltip
+gui.config.myColour=My Colour
+gui.config.myColour.tooltip=My Colour Tooltip
+
+//Blocks
+tile.blockstatetraining.lighted_glass_block.white.name=White Lighted Block
+tile.blockstatetraining.lighted_glass_block.orange.name=Orange Lighted Block
+tile.blockstatetraining.lighted_glass_block.magenta.name=Magenta Lighted Block
+tile.blockstatetraining.lighted_glass_block.lightBlue.name=Light Blue Lighted Block
+tile.blockstatetraining.lighted_glass_block.yellow.name=Yellow Lighted Block
+tile.blockstatetraining.lighted_glass_block.lime.name=Lime Lighted Block
+tile.blockstatetraining.lighted_glass_block.pink.name=Pink Lighted Block
+tile.blockstatetraining.lighted_glass_block.gray.name=Gray Lighted Block
+tile.blockstatetraining.lighted_glass_block.silver.name=Light Gray Lighted Block
+tile.blockstatetraining.lighted_glass_block.cyan.name=Cyan Lighted Block
+tile.blockstatetraining.lighted_glass_block.purple.name=Purple Lighted Block
+tile.blockstatetraining.lighted_glass_block.blue.name=Blue Lighted Block
+tile.blockstatetraining.lighted_glass_block.brown.name=Brown Lighted Block
+tile.blockstatetraining.lighted_glass_block.green.name=Green Lighted Block
+tile.blockstatetraining.lighted_glass_block.red.name=Red Lighted Block
+tile.blockstatetraining.lighted_glass_block.black.name=Black Lighted Block

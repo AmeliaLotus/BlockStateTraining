@@ -1,0 +1,6 @@
+{
+   "parent": "block/cube_all",
+   "textures": {
+       "all": "lm:blocks/lighted_glass_block"
+   }
+}

@@ -1,0 +1,24 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "model": "bst:lighted_glass_block"
+    },
+    "variants": {
+        "color=white": { "model": "bst:blocks/lighted_glass_white" },
+        "color=orange": { "model": "bst:blocks/lighted_glass_orange" },
+        "color=magenta": { "model": "bst:blocks/lighted_glass_magenta" },
+        "color=light_blue": { "model": "bst:blocks/lighted_glass_lightblue" },
+        "color=yellow": { "model": "bst:blocks/lighted_glass_yellow" },
+        "color=lime": { "model": "bst:blocks/lighted_glass_lime" },
+        "color=pink": { "model": "bst:blocks/lighted_glass_pink" },
+        "color=gray": { "model": "bst:blocks/lighted_glass_gray" },
+        "color=silver": { "model": "bst:blocks/lighted_glass_lightgray" },
+        "color=cyan": { "model": "bst:blocks/lighted_glass_cyan" },
+        "color=purple": { "model": "bst:blocks/lighted_glass_purple" },
+        "color=blue": { "model": "bst:blocks/lighted_glass_blue" },
+        "color=brown": { "model": "bst:blocks/lighted_glass_brown" },
+        "color=green": { "model": "bst:blocks/lighted_glass_green" },
+        "color=red": { "model": "bst:blocks/lighted_glass_red" },
+        "color=black": { "model": "bst:blocks/lighted_glass_black" }
+                }
+}
