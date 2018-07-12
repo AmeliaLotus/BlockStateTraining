@@ -16,42 +16,16 @@ import net.minecraft.world.World;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
-
-
-
 public class LightedGlassBlock extends BlockColored
 {
-
 	//Constructor! 
 	public LightedGlassBlock( final String blockName, final Material materialIn) {
-		
 		super(materialIn);
-		// set the creative tab. Pro-modders add their own creative tab.
-		//this.setCreativeTab(Main.tabLightMod);
-		// Walk Over Sound Type
 		this.setSoundType(SoundType.GLASS);
-		/*
-		 * How long it takes to break. Wiki:
-		 * minecraftmodcustomstuff.wikia.com/wiki/Hardness
-		 */
 		this.setHardness(0.3F);
-		/*
-		 * How resistant your block is to explosives. wiki:
-		 * minecraft.gamepedia.com/Explosion
-		 */
 		this.setResistance(2000.0F);
-		/*
-		 * How much light the block will give! wiki: minecraft.gamepedia.com/Light
-		 */
-		//this.setLightLevel(1.0F);
-		/*
-		 * How easy it is for light to pass through blocks. 0 = light passes through.
-		 */
 		this.setLightOpacity(0);	
-		
 		//setCreativeTab(LightMod.tabLightMod);
-		
-		
 		this.setRegistryName(MainMod.MODID, blockName);
 		this.setUnlocalizedName(this.getRegistryName().toString());
 	}

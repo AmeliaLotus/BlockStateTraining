@@ -40,7 +40,7 @@ public class BlockInit
 			final IForgeRegistry<Block> registry = event.getRegistry();
 
 			final Block[] blocks = {
-					//Register the name here
+					//Create the array of blocks to use in registration
 					LIGHTED_GLASS_BLOCK,	
 			};
 

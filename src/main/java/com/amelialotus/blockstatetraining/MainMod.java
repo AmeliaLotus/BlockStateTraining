@@ -1,5 +1,7 @@
 package com.amelialotus.blockstatetraining;
 
+import org.apache.logging.log4j.Logger;
+
 import com.amelialotus.blockstatetraining.config.configInit;
 
 import net.minecraftforge.fml.common.Mod;
@@ -24,33 +26,25 @@ public class MainMod {
 
  // Says where the client and server 'proxy' code is loaded.
     @SidedProxy(clientSide="com.amelialotus.blockstatetraining.ClientOnlyProxy", 
-    		serverSide="com.amelialotus.blockstatetraining.DedicatedServerProxy")
+    		serverSide="com.amelialotus.blockstatetraining.CommonProxy")
     public static CommonProxy proxy;
+    
+    public static Logger logger;
 
     @EventHandler
     public void preInit(FMLPreInitializationEvent event)
     {
-      proxy.preInit();
       configInit.preInit();
     }
 
     @EventHandler
     public void init(FMLInitializationEvent event)
     {
-      proxy.init();
     }
 
     @EventHandler
     public void postInit(FMLPostInitializationEvent event)
     {
-      proxy.postInit();
     }
-
-    /**
-     * Prepend the name with the mod ID, suitable for ResourceLocations such as textures.
-     * @param name
-     * @return eg "minecraftbyexample:myblockname"
-     */
-    public static String prependModID(String name) {return MODID + ":" + name;}
 }
 

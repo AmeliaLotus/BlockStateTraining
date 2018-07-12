@@ -9,5 +9,6 @@ public class ItemInit
 {
 	public static final List<Item> ITEMS = new ArrayList<Item>();
 	
+	//items go here
 	
 }
