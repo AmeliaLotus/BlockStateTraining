@@ -8,6 +8,9 @@ import net.minecraft.item.EnumDyeColor;
 import net.minecraftforge.common.property.IUnlistedProperty;
 import net.minecraftforge.common.property.Properties;
 
+/*
+ * @author Draco18s
+ */
 public class Props {
 	//public static final PropertyInteger ORE_DENSITY = PropertyInteger.create("ore_density", 1, 16);
 	//public static final PropertyBool FLOWER_STALK = PropertyBool.create("flower_stalk");

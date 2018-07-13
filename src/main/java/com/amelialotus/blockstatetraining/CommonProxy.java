@@ -79,7 +79,10 @@ public abstract class CommonProxy {
   abstract public boolean isDedicatedServer();
   
   
-  //Copy Paste starts here
+  //Below this, author is as stated
+  /*
+   * @author Draco18s
+   */
   	private List<Block> blocksToReg = new ArrayList<Block>();
 	private List<Item>  itemsToReg  = new ArrayList<Item>();
 	private List<IForgeRegistryEntry> otherItems = new ArrayList<IForgeRegistryEntry>();

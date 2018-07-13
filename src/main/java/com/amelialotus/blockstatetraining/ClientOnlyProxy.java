@@ -90,6 +90,10 @@ public class ClientOnlyProxy extends CommonProxy
   public boolean isDedicatedServer() {return false;}
   
   //Copy Paste starts here
+  /*
+   * Below this, the author is as stated.
+   * @author Draco18s
+   */
   protected List<ModelRegistryObj> modelsToReg = new ArrayList<ModelRegistryObj>();
 	protected List<ModelBakeObj> modelsToBake = new ArrayList<ModelBakeObj>();
 	protected List<StateMapObj> statesToMap = new ArrayList<StateMapObj>();

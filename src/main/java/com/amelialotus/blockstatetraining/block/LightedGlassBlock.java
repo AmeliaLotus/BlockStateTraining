@@ -19,15 +19,13 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 public class LightedGlassBlock extends BlockColored
 {
 	//Constructor! 
-	public LightedGlassBlock( final String blockName, final Material materialIn) {
+	public LightedGlassBlock(final Material materialIn) {
 		super(materialIn);
 		this.setSoundType(SoundType.GLASS);
 		this.setHardness(0.3F);
 		this.setResistance(2000.0F);
 		this.setLightOpacity(0);	
-		//setCreativeTab(LightMod.tabLightMod);
-		this.setRegistryName(MainMod.MODID, blockName);
-		this.setUnlocalizedName(this.getRegistryName().toString());
+		setCreativeTab(MainMod.Light_Tab);
 	}
 	
 	//This method is just auto-generated. Not finished
